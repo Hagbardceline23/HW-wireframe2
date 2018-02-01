@@ -34,7 +34,12 @@ h1 {
     background-color: teal;
     color: white;
 }
-
+/* from here down the code is trash
+auto margins needed to be used with a 
+wrapper. However, despite spending a lot of time
+on the project it wasn't working, I was coming up on the deadline 
+and just sort of rigged something that looks almost 
+like it's supposed to in Chrome browser */
 #box1{ 
     position: absolute;
     padding: 30px;
@@ -64,7 +69,7 @@ h1 {
     Position: relative;
     top: 20px;
     margin-right: 0px;
-    margin-left: 30px;
+    margin-left: 35px;
     width: 330px;
     height: 120px;
     background-color: Teal;}
@@ -75,7 +80,7 @@ h1 {
         Position: absolute;
         bottom: 20px;
         margin-right: 0px;
-        margin-left: 30px;
+        margin-left: 35px;
         width: 330px;
         height: 120px;
         background-color: teal;
@@ -95,6 +100,7 @@ h1 {
         height: 495px;
         width: 360px;
         float: right;
+        color: white;
         background-color: teal;
         
      }    
